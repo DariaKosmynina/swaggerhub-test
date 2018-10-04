@@ -1,6 +1,6 @@
 /*
  * Swagger Petstore
- * This is a sample Petstore server.  You can find  out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
+ * wrgtbzfgbzdfgzdfgbzdfg  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
  *
  * OpenAPI spec version: 1.0.0
  * Contact: apiteam@swagger.io
@@ -28,7 +28,7 @@ import javax.validation.constraints.*;
 /**
  * Pet
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:10:57.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:13:40.955Z")
 public class Pet   {
   @JsonProperty("id")
   private Long id = null;

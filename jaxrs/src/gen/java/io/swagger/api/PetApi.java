@@ -31,7 +31,7 @@ import javax.validation.constraints.*;
 
 
 @io.swagger.annotations.Api(description = "the pet API")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:10:57.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:13:40.955Z")
 public class PetApi  {
    private final PetApiService delegate;
 
