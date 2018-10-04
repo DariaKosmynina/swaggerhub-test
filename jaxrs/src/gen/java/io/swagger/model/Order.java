@@ -1,6 +1,6 @@
 /*
  * Swagger Petstore
- * wrgtbzf [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
+ * wrgtbzfывкуап [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
  *
  * OpenAPI spec version: 1.0.0
  * Contact: apiteam@swagger.io
@@ -25,7 +25,7 @@ import javax.validation.constraints.*;
 /**
  * Order
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:17:25.984Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:26:37.035Z")
 public class Order   {
   @JsonProperty("id")
   private Long id = null;

@@ -16,7 +16,7 @@ import java.io.InputStream;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 import javax.validation.constraints.*;
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:17:25.984Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:26:37.035Z")
 public abstract class UserApiService {
     public abstract Response createUser(User body,SecurityContext securityContext) throws NotFoundException;
     public abstract Response createUsersWithArrayInput(List<User> body,SecurityContext securityContext) throws NotFoundException;

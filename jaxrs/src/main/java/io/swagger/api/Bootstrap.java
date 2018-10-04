@@ -15,7 +15,7 @@ public class Bootstrap extends HttpServlet {
   public void init(ServletConfig config) throws ServletException {
     Info info = new Info()
       .title("Swagger Server")
-      .description("wrgtbzf [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). ")
+      .description("wrgtbzfывкуап [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). ")
       .termsOfService("http://swagger.io/terms/")
       .contact(new Contact()
         .email("apiteam@swagger.io"))
