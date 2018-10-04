@@ -31,7 +31,7 @@ import javax.validation.constraints.*;
 
 
 @io.swagger.annotations.Api(description = "the pet API")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T08:44:50.619Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T11:21:14.496Z")
 public class PetApi  {
    private final PetApiService delegate;
 
@@ -148,27 +148,6 @@ public class PetApi  {
 ,@Context SecurityContext securityContext)
     throws NotFoundException {
         return delegate.getPetById(petId,securityContext);
-    }
-    @PUT
-    
-    @Consumes({ "application/json", "application/xml" })
-    @Produces({ "application/json", "application/xml" })
-    @io.swagger.annotations.ApiOperation(value = "Update an existing pet", notes = "", response = Void.class, authorizations = {
-        @io.swagger.annotations.Authorization(value = "petstore_auth", scopes = {
-            @io.swagger.annotations.AuthorizationScope(scope = "write:pets", description = "modify pets in your account"),
-            @io.swagger.annotations.AuthorizationScope(scope = "read:pets", description = "read your pets")
-        })
-    }, tags={ "pet", })
-    @io.swagger.annotations.ApiResponses(value = { 
-        @io.swagger.annotations.ApiResponse(code = 400, message = "Invalid ID supplied", response = Void.class),
-        
-        @io.swagger.annotations.ApiResponse(code = 404, message = "Pet not found", response = Void.class),
-        
-        @io.swagger.annotations.ApiResponse(code = 405, message = "Validation exception", response = Void.class) })
-    public Response updatePet(@ApiParam(value = "Pet object that needs to be added to the store" ,required=true) Pet body
-,@Context SecurityContext securityContext)
-    throws NotFoundException {
-        return delegate.updatePet(body,securityContext);
     }
     @POST
     @Path("/{petId}")
