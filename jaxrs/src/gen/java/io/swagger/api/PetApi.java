@@ -31,7 +31,7 @@ import javax.validation.constraints.*;
 
 
 @io.swagger.annotations.Api(description = "the pet API")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T11:21:14.496Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T11:44:20.492Z")
 public class PetApi  {
    private final PetApiService delegate;
 
@@ -56,23 +56,6 @@ public class PetApi  {
       this.delegate = delegate;
    }
 
-    @POST
-    
-    @Consumes({ "application/json", "application/xml" })
-    @Produces({ "application/json", "application/xml" })
-    @io.swagger.annotations.ApiOperation(value = "Add a new pet to the store", notes = "", response = Void.class, authorizations = {
-        @io.swagger.annotations.Authorization(value = "petstore_auth", scopes = {
-            @io.swagger.annotations.AuthorizationScope(scope = "write:pets", description = "modify pets in your account"),
-            @io.swagger.annotations.AuthorizationScope(scope = "read:pets", description = "read your pets")
-        })
-    }, tags={ "pet", })
-    @io.swagger.annotations.ApiResponses(value = { 
-        @io.swagger.annotations.ApiResponse(code = 405, message = "Invalid input", response = Void.class) })
-    public Response addPet(@ApiParam(value = "Pet object that needs to be added to the store" ,required=true) Pet body
-,@Context SecurityContext securityContext)
-    throws NotFoundException {
-        return delegate.addPet(body,securityContext);
-    }
     @DELETE
     @Path("/{petId}")
     
