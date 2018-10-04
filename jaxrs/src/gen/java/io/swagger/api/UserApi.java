@@ -30,7 +30,7 @@ import javax.validation.constraints.*;
 
 
 @io.swagger.annotations.Api(description = "the user API")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T11:47:10.059Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:08:41.223Z")
 public class UserApi  {
    private final UserApiService delegate;
 

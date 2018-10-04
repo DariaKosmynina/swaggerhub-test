@@ -23,7 +23,7 @@ import javax.validation.constraints.*;
 /**
  * Tag
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T11:47:10.059Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2018-10-04T14:08:41.223Z")
 public class Tag   {
   @JsonProperty("id")
   private Long id = null;
